@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "DOI search engine",
+  "description": "Adds a search engine that links to doi.org (Digital Object Identifier)",
+  "homepage_url": "https://github.com/cvergari/DOI_search",
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "92 .0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Discogs",
+      "search_url": "https://www.doi.org/{searchTerms}",
+      "keyword": "doi",
+      "favicon_url": "16.png",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+
+}
