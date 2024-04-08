@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "DOI search engine",
   "description": "Adds a search engine that links to doi.org (Digital Object Identifier)",
@@ -16,10 +15,10 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "Discogs",
+      "name": "DOI search engine",
       "search_url": "https://www.doi.org/{searchTerms}",
       "keyword": "doi",
-      "favicon_url": "16.png",
+      "favicon_url": "icons/16.png",
       "is_default": false,
       "encoding": "UTF-8"
     }
